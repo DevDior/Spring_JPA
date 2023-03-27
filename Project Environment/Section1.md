@@ -22,7 +22,7 @@
 - Hibernate: Java ORM 프레임워크(가장 대중적)
 - Junit4: Unit Test 프레임워크
 
-- @RunWith(SpringRunner.class): Junit4에서 지원, @Autowired, @MockBean에 해당하는 것들만 로딩, Jnunit5에서는 사용 x
+- @RunWith(SpringRunner.class): Junit4에서 지원, @Autowired, @MockBean에 해당하는 것들만 로딩, Jnunit5에서는 @Autowired 사용 x
 - @Transactional: Teest 안에서는 Rollback 실행, Rollback(false) 가능
 
 - 모든 로그 출력은 가급적 로거를 통해.
